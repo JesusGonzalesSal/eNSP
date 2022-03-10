@@ -41,6 +41,41 @@
                 <interface sztype="Serial" interfacename="Serial" count="4" />
             </slot>
         </dev>
+        <dev id="93D53704-A965-4a35-9B34-9C71A6A4E845" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-D7-06-CC" com_port="2006" bootmode="0" cx="68.000000" cy="499.000000" edit_left="95" edit_top="553">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="C787BFC6-F965-41e6-BD9B-F7631540C3DC" name="AR2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-2A-09-28" com_port="2007" bootmode="0" cx="271.000000" cy="635.000000" edit_left="298" edit_top="689">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="75DA29E0-6C69-432b-B5BC-7044F5CEE34B" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-1E-36-D1" com_port="2008" bootmode="0" cx="471.000000" cy="499.000000" edit_left="498" edit_top="553">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="854248D5-161E-413b-A074-D3A10F7ADC84" name="AR4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-7A-23-7F" com_port="2009" bootmode="0" cx="726.000000" cy="499.000000" edit_left="753" edit_top="553">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="97E3AA10-7A88-459f-8CD3-62E33B28D41C" name="AR5" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-D5-5A-2B" com_port="2010" bootmode="0" cx="925.000000" cy="499.000000" edit_left="952" edit_top="553">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="1" />
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+            </slot>
+        </dev>
+        <dev id="5F0AEC64-9E9D-4e46-80AB-4FC29977BDA8" name="LSW3" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-AF-80-66" com_port="2011" bootmode="0" cx="271.000000" cy="499.000000" edit_left="298" edit_top="553">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
     </devices>
     <lines>
         <line srcDeviceID="7DF258EC-30B6-41f4-B030-C012C25072C8" destDeviceID="FA69324D-7833-4539-AB2A-4C02874AA91E">
@@ -60,6 +95,24 @@
         </line>
         <line srcDeviceID="D13D46D1-274B-45fe-9D85-B18264B98354" destDeviceID="8322858B-75AA-4f7c-B856-99A8C2640821">
             <interfacePair lineName="Copper" srcIndex="4" srcBoundRectIsMoved="0" srcBoundRect_X="757.183777" srcBoundRect_Y="171.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="5" tarBoundRectIsMoved="1" tarBoundRect_X="870.816223" tarBoundRect_Y="171.000000" tarOffset_X="-27.000000" tarOffset_Y="1.000000" />
+        </line>
+        <line srcDeviceID="93D53704-A965-4a35-9B34-9C71A6A4E845" destDeviceID="5F0AEC64-9E9D-4e46-80AB-4FC29977BDA8">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="138.183762" srcBoundRect_Y="526.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="0" tarBoundRectIsMoved="0" tarBoundRect_X="254.816238" tarBoundRect_Y="526.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="5F0AEC64-9E9D-4e46-80AB-4FC29977BDA8" destDeviceID="75DA29E0-6C69-432b-B5BC-7044F5CEE34B">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="341.183777" srcBoundRect_Y="526.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="454.816223" tarBoundRect_Y="526.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="93D53704-A965-4a35-9B34-9C71A6A4E845" destDeviceID="C787BFC6-F965-41e6-BD9B-F7631540C3DC">
+            <interfacePair lineName="Copper" srcIndex="2" srcBoundRectIsMoved="0" srcBoundRect_X="130.876587" srcBoundRect_Y="550.035522" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="2" tarBoundRectIsMoved="0" tarBoundRect_X="262.123413" tarBoundRect_Y="637.964478" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="C787BFC6-F965-41e6-BD9B-F7631540C3DC" destDeviceID="75DA29E0-6C69-432b-B5BC-7044F5CEE34B">
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="0" srcBoundRect_X="333.709808" srcBoundRect_Y="637.717346" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="2" tarBoundRectIsMoved="0" tarBoundRect_X="462.290192" tarBoundRect_Y="550.282654" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="75DA29E0-6C69-432b-B5BC-7044F5CEE34B" destDeviceID="854248D5-161E-413b-A074-D3A10F7ADC84">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="541.183777" srcBoundRect_Y="526.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="709.816223" tarBoundRect_Y="526.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+        </line>
+        <line srcDeviceID="854248D5-161E-413b-A074-D3A10F7ADC84" destDeviceID="97E3AA10-7A88-459f-8CD3-62E33B28D41C">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="796.183777" srcBoundRect_Y="526.000000" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="0" tarBoundRect_X="908.816223" tarBoundRect_Y="526.000000" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
         </line>
     </lines>
     <shapes />
